@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Default styles for light mode */
 body {
-  @apply bg-mono-light text-mono-dark;
+  @apply bg-mono-light text-mono-dark; /* Latar belakang dan teks untuk mode terang */
+}
+
+/* Dark mode styles */
+body.dark {
+  @apply bg-navy text-lightBlue; /* Latar belakang dan teks untuk mode gelap */
 }
