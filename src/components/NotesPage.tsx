@@ -56,7 +56,7 @@ const NotesPage = () => {
               <button
                 onClick={() => handleDeleteNote(index)} // Panggil handleDeleteNote saat tombol di klik
                 className={`ml-4 px-2 py-1 rounded transition-colors ${
-                  darkMode ? 'bg-lightBlue text-white hover:bg-blue-600' : 'bg-red-500 text-white hover:bg-red-600'
+                  darkMode ? 'bg-lightBlue text-white hover:bg-blue-600' : 'bg-red-600 text-white hover:bg-red-700'
                 }`}
               >
                 Delete
@@ -64,11 +64,11 @@ const NotesPage = () => {
             </div>
           ))
         ) : (
-          <p className="text-mono-dark dark:text-lightBlue">No notes yet!</p>
+          <p className="text-mono-dark dark:text-white">No notes yet!</p>
         )}
       </div>
     </div>
   );
 };
-
+  
 export default NotesPage;
