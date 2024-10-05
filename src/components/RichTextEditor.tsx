@@ -33,7 +33,7 @@ const RichTextEditor = ({ onSubmit, darkMode }: RichTextEditorProps) => {
       />
       <button
         onClick={handleSubmit}
-        className="mt-4 bg-mono-dark dark:bg-lightBlue text-white dark:text-navy px-4 py-2 rounded transition-colors"
+        className="mt-4 bg-mono-dark dark:bg-lightBlue text-white dark:text-white px-4 py-2 rounded transition-colors"
       >
         Submit Note
       </button>
